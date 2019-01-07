@@ -1,0 +1,185 @@
+Jan 07, 2019 10:17:44 AM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/Bibhuti/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/005SpringMVCBasic/WEB-INF/lib/jaxb-runtime-2.3.1.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:127)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:59)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:168)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:92)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:1987)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1940)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1915)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1876)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1145)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:767)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5083)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 07, 2019 10:17:44 AM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/Bibhuti/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/005SpringMVCBasic/WEB-INF/lib/txw2-2.3.1.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:127)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:59)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:168)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:92)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:1987)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1940)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1915)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1876)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1145)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:767)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5083)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 07, 2019 10:17:44 AM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/Bibhuti/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/005SpringMVCBasic/WEB-INF/lib/stax-ex-1.8.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:127)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:59)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:168)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:92)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:1987)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1940)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1915)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1876)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1145)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:767)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5083)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 07, 2019 10:17:44 AM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [META-INF/versions/9/module-info.class] from Jar [jar:file:/D:/Bibhuti/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/005SpringMVCBasic/WEB-INF/lib/byte-buddy-1.9.5.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:127)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:59)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:168)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:92)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:1987)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1940)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1915)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1876)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1145)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:767)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5083)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 07, 2019 10:17:45 AM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/Bibhuti/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/005SpringMVCBasic/WEB-INF/lib/FastInfoset-1.2.15.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:127)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:59)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:168)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:92)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:1987)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1940)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1915)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1876)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1145)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:767)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5083)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 07, 2019 10:17:45 AM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/Bibhuti/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/005SpringMVCBasic/WEB-INF/lib/jaxb-api-2.3.1.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:127)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:59)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:168)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:92)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:1987)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1940)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1915)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1876)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1145)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:767)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5083)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 07, 2019 10:17:45 AM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/Bibhuti/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/005SpringMVCBasic/WEB-INF/lib/istack-commons-runtime-3.0.7.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:127)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:59)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:168)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:92)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:1987)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1940)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1915)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1876)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1145)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:767)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5083)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 07, 2019 10:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jan 07, 2019 10:17:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring DispatcherServlet 'springmvc'
+Jan 07, 2019 10:17:46 AM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: Initializing Servlet 'springmvc'
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
